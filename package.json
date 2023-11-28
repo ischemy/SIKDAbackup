@@ -1,0 +1,78 @@
+{
+  "name": "sikda-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"{components,app,service,api-generator}/**/*.{js,ts,tsx,d.ts}\"",
+    "lint": "next lint",
+    "success-message": "echo \n\n\n🚀  Everything is awesome. 🚀\n\n🖥️  Auto checking completed, ready to deploy.🖥️\n\n☁️  Run: git push ☁️"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "axios": "^1.5.1",
+    "chart.js": "4.2.1",
+    "husky": "^8.0.3",
+    "moment": "^2.29.4",
+    "next": "^13.5.4",
+    "next-redux-wrapper": "^8.1.0",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^9.6.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-international-phone": "^4.0.4",
+    "react-redux": "^8.1.3",
+    "react-toastify": "^9.1.3",
+    "redux-persist": "^6.0.0",
+    "typescript": "5.1.3"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.5.4",
+    "autoprefixer": "^10.4.16",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "postcss": "^8.4.30",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.4",
+    "tailwindcss": "^3.3.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "post-commit": "npm run success-message",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,html}": [
+      "npm run lint",
+      "npm run format",
+      "git add ."
+    ],
+    "*.{md}": [
+      "npm run formatmd",
+      "git add"
+    ]
+  },
+  "commitlint": {
+    "rules": {
+      "references-empty": [
+        2,
+        "always"
+      ]
+    },
+    "parserPreset": {
+      "parserOpts": {
+        "issuePrefixes": [
+          "ISSUE-"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+    "data":[
+        {
+            "id": "79f88d5d-deb3-4b88-bfc1-2e6d39a37ef2",
+            "identifier": [
+                {
+                    "use":"official",
+                    "value": "G-2-R-1A"
+                }
+            ],
+            "status": "active",
+            "name": "Ruang 1A IRJT",
+            "description": "Ruang 1A, Poliklinik Bedah Rawat Jalan Terpadu, Lantai 2, Gedung G",
+            "mode": "instance",
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "2328",
+                    "use": "work"
+                },
+                {
+                    "system": "fax",
+                    "value": "2329",
+                    "use": "work"
+                },
+                {
+                    "system": "email",
+                    "value": "second wing admissions"
+                },
+                {
+                    "system": "url",
+                    "value": "http://sampleorg.com/southwing",
+                    "use": "work"
+                }
+            ],
+            "address": {
+                "line": "Jalan Jati Asih",
+                "postalCode": "55292",
+                "province":{
+                    "code": "31",
+                    "display": "DKI Jakarta"
+                },
+                "city": {
+                    "code": "3171",
+                    "display": "Jakarta Pusat"
+                },
+                "district": {
+                    "code": "317101",
+                    "display": "Kebayoran Baru"
+                },
+                "village": {
+                    "code": "31710101",
+                    "display": "Jati Asih"
+                },
+                "rt":"01",
+                "rw":"02"
+            },
+            "physicalType": {
+                "code": "ro",
+                "display": "Room"
+            },
+            "operationalStatus":{
+                "code": "O",	
+                "display": "Occupied"
+            },
+            "position": {
+                "longitude": -6.23115426275766,
+                "latitude": 106.83239885393944,
+                "altitude": 0
+            },
+            "managingOrganization": "511ec8dd-5945-4228-9487-ab2d28b48453",
+            "partOf":null
+        },
+        {
+            "id": "79f88d5d-deb3-4b88-bfc1-2e6d39a37ef3",
+            "identifier": [
+                {
+                    "use":"official",
+                    "value": "G-2-R-2A"
+                }
+            ],
+            "status": "active",
+            "name": "Ruang 2A IRJT",
+            "description": "Ruang 2A, Poliklinik Bedah Rawat Jalan Terpadu, Lantai 2, Gedung G",
+            "mode": "instance",
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "2328",
+                    "use": "work"
+                },
+                {
+                    "system": "fax",
+                    "value": "2329",
+                    "use": "work"
+                },
+                {
+                    "system": "email",
+                    "value": "second wing admissions"
+                },
+                {
+                    "system": "url",
+                    "value": "http://sampleorg.com/southwing",
+                    "use": "work"
+                }
+            ],
+            "address": {
+                "line": "Jalan Jati Asih",
+                "postalCode": "55292",
+                "province":{
+                    "code": "31",
+                    "display": "DKI Jakarta"
+                },
+                "city": {
+                    "code": "3171",
+                    "display": "Jakarta Pusat"
+                },
+                "district": {
+                    "code": "317101",
+                    "display": "Kebayoran Baru"
+                },
+                "village": {
+                    "code": "31710101",
+                    "display": "Jati Asih"
+                },
+                "rt":"01",
+                "rw":"02"
+            },
+            "physicalType": {
+                "code": "ro",
+                "display": "Room"
+            },
+            "operationalStatus":{
+                "code": "O",	
+                "display": "Occupied"
+            },
+            "position": {
+                "longitude": -6.23115426275766,
+                "latitude": 106.83239885393944,
+                "altitude": 0
+            },
+            "managingOrganization": "511ec8dd-5945-4228-9487-ab2d28b48453",
+            "partOf":"79f88d5d-deb3-4b88-bfc1-2e6d39a37ef2"
+        }
+    ]
+}

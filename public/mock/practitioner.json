@@ -1,0 +1,111 @@
+{
+    "data": [
+        {
+            "address": {
+                "line": "Jalan Jati Asih",
+                "postalCode": "55292",
+                "province": {
+                    "code": "31",
+                    "display": "DKI Jakarta"
+                },
+                "city": {
+                    "code": "3171",
+                    "display": "Jakarta Pusat"
+                },
+                "district": {
+                    "code": "317101",
+                    "display": "Kebayoran Baru"
+                },
+                "village": {
+                    "code": "31710101",
+                    "display": "Jati Asih"
+                },
+                "rt": "01",
+                "rw": "02"
+            },
+            "addressDomicili": {
+                "line": [
+                    "Jalan Jati Asih"
+                ],
+                "postalCode": "55292",
+                "province": {
+                    "code": "31",
+                    "display": "DKI Jakarta"
+                },
+                "city": {
+                    "code": "3171",
+                    "display": "Jakarta Pusat"
+                },
+                "district": {
+                    "code": "317101",
+                    "display": "Kebayoran Baru"
+                },
+                "village": {
+                    "code": "31710101",
+                    "display": "Jati Asih"
+                },
+                "rt": "01",
+                "rw": "02"
+            },
+            "birthDate": "1945-11-17",
+            "gender": "male",
+            "id": "N10000005",
+            "identifier": [
+                {
+                    "system": "https://fhir.kemkes.go.id/id/nakes-his-number",
+                    "use": "official",
+                    "value": "N10000005"
+                },
+                {
+                    "system": "https://fhir.kemkes.go.id/id/nik",
+                    "use": "official",
+                    "value": "367400001111222"
+                }
+            ],
+            "name": "Paul Therapist, PT",
+            "qualification": [
+                {
+                    "code": {
+                        "code": "STR-KKI",
+                        "display": "Surat Tanda Registrasi Dokter"
+                    },
+                    "identifier": "2938/28377/STR/00001",
+                    "issuer": "Konsil Kedokteran Indonesia",
+                    "period": {
+                        "end": "2023-01-01",
+                        "start": "1995-01-01"
+                    }
+                },
+                {
+                    "code": {
+                        "code": "BS",
+                        "display": "Bachelor of Science"
+                    },
+                    "identifier": "2938/28377/STR/00001",
+                    "issuer": "Universitas Example",
+                    "period": {
+                        "start": "1995"
+                    }
+                }
+            ],
+            "telecom": [
+                {
+                    "system": "phone",
+                    "use": "mobile",
+                    "value": "08123456789"
+                },
+                {
+                    "system": "phone",
+                    "use": "home",
+                    "value": "+622123456789"
+                },
+                {
+                    "system": "email",
+                    "use": "home",
+                    "value": "voigt@xyz.com"
+                }
+            ],
+            "role": "Doctor"
+        }
+    ]
+}

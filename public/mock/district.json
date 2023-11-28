@@ -1,0 +1,68 @@
+{
+    "data": [
+      {
+        "code": "3173010",
+        "name": "TANAH ABANG",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      },
+      {
+        "code": "3173020",
+        "name": "MENTENG",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      },
+      {
+        "code": "3173030",
+        "name": "SENEN",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      },
+      {
+        "code": "3173040",
+        "name": "JOHAR BARU",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      },
+      {
+        "code": "3173050",
+        "name": "CEMPAKA PUTIH",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      },
+      {
+        "code": "3173060",
+        "name": "KEMAYORAN",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      },
+      {
+        "code": "3173070",
+        "name": "SAWAH BESAR",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      },
+      {
+        "code": "3173080",
+        "name": "GAMBIR",
+        "cityCode": "3173",
+        "cityName": "KOTA JAKARTA PUSAT",
+        "provinceName": "DKI Jakarta",
+        "provinceCode": "31"
+      }
+    ]
+  }

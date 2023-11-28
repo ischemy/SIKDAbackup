@@ -1,0 +1,126 @@
+{
+    "data": [
+        {
+            "id": "79f88d5d-deb3-4b88-bfc1-2e6d39a37ef1",
+            "active": true,
+            "identifier": [
+                {
+                    "use": "official",
+                    "value": "R220001"
+                },
+                {
+                    "use": "bpjs",
+                    "value": "BPJS0123272"
+                }
+            ],
+            "type": {
+                "code": "prov",
+                "display": "Healthcare Provider"
+            },
+            "name": "Puskesmas Kebayoran Baru",
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "+6221-783042654",
+                    "use": "work"
+                },
+                {
+                    "system": "email",
+                    "value": "rs-satusehat@gmail.com",
+                    "use": "work"
+                },
+                {
+                    "system": "url",
+                    "value": "www.rs-satusehat@gmail.com",
+                    "use": "work"
+                }
+            ],
+            "address": {
+                "line": [
+                    "Jalan Jati Asih"
+                ],
+                "postalCode": "55292",
+                "province":{
+                    "code": "31",
+                    "display": "DKI Jakarta"
+                },
+                "city": {
+                    "code": "3171",
+                    "display": "Jakarta Pusat"
+                },
+                "district": {
+                    "code": "317101",
+                    "display": "Kebayoran Baru"
+                },
+                "village": {
+                    "code": "31710101",
+                    "display": "Jati Asih"
+                },
+                "rt":"01",
+                "rw":"02"
+            },
+            "partOf": null
+        },
+        {
+            "id": "511ec8dd-5945-4228-9487-ab2d28b48453",
+            "active": true,
+            "identifier": [
+                {
+                    "use": "official",
+                    "value": "R220001"
+                },
+                {
+                    "use": "bpjs",
+                    "value": "BPJS0123272"
+                }
+            ],
+            "type": {
+                "code": "dept",
+                "display": "Hospital Department"
+            },
+            "name": "Rawat Jalan Terpadu",
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "+6221-783042654",
+                    "use": "work"
+                },
+                {
+                    "system": "email",
+                    "value": "rs-satusehat@gmail.com",
+                    "use": "work"
+                },
+                {
+                    "system": "url",
+                    "value": "www.rs-satusehat@gmail.com",
+                    "use": "work"
+                }
+            ],
+            "address": {
+                "line": [
+                    "Jalan Jati Asih"
+                ],
+                "postalCode": "55292",
+                "province":{
+                    "code": "31",
+                    "display": "DKI Jakarta"
+                },
+                "city": {
+                    "code": "3171",
+                    "display": "Jakarta Pusat"
+                },
+                "district": {
+                    "code": "317101",
+                    "display": "Kebayoran Baru"
+                },
+                "village": {
+                    "code": "31710101",
+                    "display": "Jati Asih"
+                },
+                "rt":"01",
+                "rw":"02"
+            },
+            "partOf": "79f88d5d-deb3-4b88-bfc1-2e6d39a37ef1"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+.customs-tab{
+  border-right: 3px solid #EDEDED;
+  
+}
+
+.customs-tab ul{
+  list-style-type: none;
+}
+
+.customs-tab ul li{
+  width: 500px;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 12px;
+
+  
+}
+
+.customs-tab ul li:focus-visible{
+  background-color: #EBF3FF;
+  
+}
+
+.customs-tab ul li:hover{
+  background-color: #EBF3FF;
+}
+
+.content{
+  display: none;
+}
+
+.show-content{
+  display: block;
+}
